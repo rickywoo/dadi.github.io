@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T08:16:13.184Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MGSAHBtx7i3kyMN_QLJ5" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T08:31:20.143Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CnN-YGWQ4VICtROGFRQL" version="16.4.3" type="github">
   <diagram id="qgHEqQOMFWDJMN6MNCsv" name="Page-1">
     <mxGraphModel dx="1254" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-56" value="Guest OS&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1091" width="210" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="_wl-bGsMftItGD1j7Wp_-1" value="Container&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="250" y="80" width="110" height="110" as="geometry" />
         </mxCell>
@@ -124,6 +127,60 @@
         </mxCell>
         <mxCell id="_wl-bGsMftItGD1j7Wp_-40" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wl-bGsMftItGD1j7Wp_-42">
           <mxGeometry y="90" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-50" value="/dev/sdb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1128" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-51" value="&lt;br&gt;&lt;br&gt;Host OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1241" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-52" value="Backend Storage&lt;br&gt;(NFS, iSCSI, Gluster, Ceph ...)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.629;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_wl-bGsMftItGD1j7Wp_-50" target="_wl-bGsMftItGD1j7Wp_-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451" y="1361" as="sourcePoint" />
+            <mxPoint x="501" y="1311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-55" value="KVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1241" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-58" value="/dev/sdc" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1128" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-59" value="QEMU&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1080" width="128" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-70" value="NFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="1120" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-71" value="iSCSI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1120" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-72" value="Gluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="1160" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-73" value="RBD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="1160" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-74" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581.5" y="1197" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-76" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;sketch=0;curved=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_wl-bGsMftItGD1j7Wp_-59" target="_wl-bGsMftItGD1j7Wp_-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="1140" as="sourcePoint" />
+            <mxPoint x="718" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wl-bGsMftItGD1j7Wp_-78" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=45;exitPerimeter=0;entryX=0.016;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_wl-bGsMftItGD1j7Wp_-58" target="_wl-bGsMftItGD1j7Wp_-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1070" as="sourcePoint" />
+            <mxPoint x="530" y="1170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
