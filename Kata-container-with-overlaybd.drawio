@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-08T22:24:19.826Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="3g9QBbFgaDx8w5AC-flX" version="16.6.6" type="github" pages="2">
+<mxfile modified="2022-03-08T22:28:56.399Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="Vmq4inaMbyfr12fs0i8f" version="16.6.6" type="github" pages="3">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="kata-containers">
     <mxGraphModel dx="1186" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1261,6 +1261,14 @@
         <mxCell id="mwQkkk8wNTbYgh8HLLqN-382" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontSize=14;strokeWidth=2;fillColor=none;image=https://cncf-branding.netlify.app/img/projects/containerd/icon/black/containerd-icon-black.png;" vertex="1" parent="mwQkkk8wNTbYgh8HLLqN-376">
           <mxGeometry x="40" y="22" width="20" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YbwuwwsTNDRt2b1phc2L" name="overlaybd">
+    <mxGraphModel dx="1186" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="bjxTztcP_gFry0sWujqv-0" />
+        <mxCell id="bjxTztcP_gFry0sWujqv-1" parent="bjxTztcP_gFry0sWujqv-0" />
       </root>
     </mxGraphModel>
   </diagram>
