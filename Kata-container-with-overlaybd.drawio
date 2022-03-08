@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-08T23:54:41.252Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="SSMxI7d9_s8TwvYiQC_V" version="16.6.6" type="github" pages="3">
+<mxfile modified="2022-03-08T23:56:53.472Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="CPfcCeoqdW0WMVwGArN6" version="16.6.6" type="github" pages="3">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="kata-containers">
     <mxGraphModel dx="1186" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1183,9 +1183,6 @@
         <mxCell id="mwQkkk8wNTbYgh8HLLqN-342" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://tisgoud.nl/2020/10/multipass-multi-node-kubernetes-cluster/img/k3s.png;clipPath=inset(0% 54.07% 2% 0%);" vertex="1" parent="oOtlYVTSgX0Yx3UYEPyc-1">
           <mxGeometry x="1240" y="4066.61" width="270" height="213.38709677419354" as="geometry" />
         </mxCell>
-        <mxCell id="mwQkkk8wNTbYgh8HLLqN-348" value="&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 18px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Client&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="oOtlYVTSgX0Yx3UYEPyc-1">
-          <mxGeometry x="323" y="3710" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="mwQkkk8wNTbYgh8HLLqN-349" value="" style="group" vertex="1" connectable="0" parent="oOtlYVTSgX0Yx3UYEPyc-1">
           <mxGeometry x="330" y="3746" width="260" height="110" as="geometry" />
         </mxCell>
@@ -1236,9 +1233,6 @@
         </mxCell>
         <mxCell id="mwQkkk8wNTbYgh8HLLqN-375" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;dashed=1;labelBackgroundColor=#F8F9FA;fontSize=18;fontColor=#000000;strokeWidth=1;fillColor=none;image=https://pic4.zhimg.com/80/v2-273194d2757230ee9bc7c5906c178093_1440w.jpg;clipPath=inset(6.74% 53% 7.45% 12%);" vertex="1" parent="mwQkkk8wNTbYgh8HLLqN-366">
           <mxGeometry x="63" y="20" width="26.03" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mwQkkk8wNTbYgh8HLLqN-372" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;dashed=1;labelBackgroundColor=#F8F9FA;fontSize=18;fontColor=#000000;strokeWidth=1;fillColor=none;image=https://buildkite.com/_next/static/assets/assets/images/brand-assets/buildkite-logo-on-light-f8027386.png;" vertex="1" parent="oOtlYVTSgX0Yx3UYEPyc-1">
-          <mxGeometry x="918" y="3593.5" width="520" height="93" as="geometry" />
         </mxCell>
         <mxCell id="mwQkkk8wNTbYgh8HLLqN-373" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;dashed=1;labelBackgroundColor=#F8F9FA;fontSize=18;fontColor=#000000;strokeWidth=1;fillColor=none;image=https://pic4.zhimg.com/80/v2-273194d2757230ee9bc7c5906c178093_1440w.jpg;" vertex="1" parent="oOtlYVTSgX0Yx3UYEPyc-1">
           <mxGeometry x="82.5" y="4680" width="520" height="245" as="geometry" />
